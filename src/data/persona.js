@@ -1,7 +1,7 @@
 // aqui van los 10 atributos; el span es cuantas columnas ocupa (suma 12 por fila)
 // orden: 1 de 12, 2 de 6, 3 de 4, 4 de 3 = 10 bloques
 export const atributos = [
-  { id: 1, span: 12, titulo: 'Quien soy', texto: 'Estudiante de desarrollo, me gusta resolver problemas y aprender cosas nuevas cada semana.' },
+  { id: 1, span: 12, titulo: 'Persistente', texto: 'Estudiante de desarrollo, me gusta resolver problemas y aprender cosas nuevas cada semana.' },
 
   { id: 2, span: 6, titulo: 'Curioso', texto: 'Siempre estoy leyendo o probando algo nuevo.' },
   { id: 3, span: 6, titulo: 'Constante', texto: 'Prefiero avanzar poco a poco pero todos los dias.' },
