@@ -1,0 +1,16 @@
+# configuracion de netlify: compila la app y publica solo el build
+[build]
+  # netlify corre esto en vez de servir la raiz del repo
+  command = "npm run build"
+  # carpeta que se sube al cdn (la genera vite)
+  publish = "dist"
+
+# vite 8 necesita node moderno; fija la version en netlify
+[build.environment]
+  NODE_VERSION = "22"
+
+# cualquier ruta cae en index.html (spa de una sola pagina)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

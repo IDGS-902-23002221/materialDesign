@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# carpeta que genera el dev server de la pwa
+dev-dist
